@@ -19,8 +19,7 @@
 ## For proper deploy with Ansible
 * Have to add a user as "ansible" with sudo rights at the remote host.
 * Have to modify the IP address of the remote host in hosts file at the remote host.
-* Have to be preinstalled the below mentioned environments:
+* Have to be preinstalled and up-to-date the below mentioned environments:
     - pip
     - python
-    - python3
 * If the above mentioned requirements are Done, the deployment can be started with " ansible-playbook site.yml" command.
