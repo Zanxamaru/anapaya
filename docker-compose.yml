@@ -22,15 +22,15 @@ services:
       - backend
 
   mongodb:
-    image: mongo:4.4.3
+    image: bitnami/mongodb:4.4.3
     container_name: mongodb
     hostname: mongodb
     restart: unless-stopped
     command: mongod --auth
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: rootpass
-      MONGO_INITDB_DATABASE: appdb
+      MONGODB_USERNAME: appuser
+      MONGODB_PASSWORD: apppass
+      MONGODB_DATABASE: appdb
       MONGODB_DATA_DIR: /data/db
       MONDODB_LOG_DIR: /dev/null
     volumes:
