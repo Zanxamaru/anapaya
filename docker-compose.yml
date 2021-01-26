@@ -63,7 +63,7 @@ networks:
     driver: bridge
 
 volumes:
-  mongodbdata:
+  mongodb_data:
     driver: local
   appdata:
     driver: local
