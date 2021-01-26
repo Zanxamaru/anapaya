@@ -1,10 +1,10 @@
 ---
-- name: add GPG key
+- name: Add GPG key
   apt_key:
     url: https://download.docker.com/linux/debian/gpg
     state: present
 
-- name: add docker repository to apt
+- name: Add docker repository to apt
   apt_repository: 
     repo: "deb [arch=amd64] https://download.docker.com/linux/debian buster edge"
     state: present
