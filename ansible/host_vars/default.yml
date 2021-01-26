@@ -1,3 +1,3 @@
 ---
-remote_user: anapaya
+remote_user: ansible
 docker_network_name: app-network
