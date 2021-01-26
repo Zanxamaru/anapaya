@@ -6,12 +6,14 @@
 
 ## What is this application and how to use it
 * On the main screen You can log in with "Submit" button, or You can register a new user  with "Sign up" button.
-* If You registered a new user, then you can log in with it and after that logout as well.
+* If You registered a new user, then you can log in with "Submit" on Home page with the specified credentials.
+* If You logged in successfully you see a confirmation message, and you can log out with "Logout" as well.
 * Flash windows will appear if something is not OK, like:
     - Email not found!
-    - Wrong password.
+    - Wrong password!
     - This email is already exists in the database!
     - There is already a user by that name!
+    - Etc.
 
 
 ## For proper deploy with Ansible
