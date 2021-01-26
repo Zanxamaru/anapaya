@@ -26,7 +26,7 @@ services:
     container_name: mongodb
     hostname: mongodb
     restart: unless-stopped
-    command: mongo --auth
+    command: mongod --auth
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: rootpass
