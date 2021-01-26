@@ -20,6 +20,6 @@
 * Have to add a user as "ansible" with sudo rights at the remote host.
 * Have to modify the IP address of the remote host in hosts file at the remote host.
 * Have to be preinstalled and up-to-date the below mentioned environments:
-    - pip
-    - python (at least 3.6 or above)
+    - pip3
+    - python3 (at least 3.6 or above)
 * If the above mentioned requirements are Done, the deployment can be started with " ansible-playbook site.yml" command.
