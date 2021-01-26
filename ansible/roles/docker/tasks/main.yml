@@ -23,6 +23,7 @@
 - name: Install Python Docker module
   pip:
     name: docker
+    executable: pip3
 
 - name: Enable docker services
   systemd:
