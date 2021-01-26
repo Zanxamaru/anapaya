@@ -31,8 +31,6 @@ services:
       MONGODB_USERNAME: appuser
       MONGODB_PASSWORD: apppass
       MONGODB_DATABASE: appdb
-      MONGODB_DATA_DIR: /data/db
-      MONDODB_LOG_DIR: /dev/null
     volumes:
       - mongodbdata:/bitnami/mongodb
     networks:
