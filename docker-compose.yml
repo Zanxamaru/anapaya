@@ -34,7 +34,7 @@ services:
       MONGODB_DATA_DIR: /data/db
       MONDODB_LOG_DIR: /dev/null
     volumes:
-      - mongodbdata:/data/db
+      - mongodb_data:/bitnami/mongodb
     networks:
       - backend
 
